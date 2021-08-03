@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+  .container2 {
+    position: relative;
+    top: 520px;
+  }
+  
+  
+  .mySlides {
+    display: none;
+  }
+
+  
+  .cursor {
+    cursor: pointer;
+  }
+
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 150px;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 200px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+
+  
+  .next {
+    right: 15px;
+    border-radius: 3px 0 0 3px;
+  }
+
+
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  
+
+  
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: #14DB93;
+  }
+
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+
+  
+  .demo {
+    opacity: 0.6;
+  }
+
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  @media screen and (min-width: 1921px) {
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 250px;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: auto;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  }
+
+
+  @media screen and (min-width: 1921px) {
+    .numbertext {
+    color: #f2f2f2;
+    font-size: auto;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    }
+  }
+
+  @media screen and (min-width: 1921px) {
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: #14DB93;
+      font-size: auto;
+    }
+  }
+  
+  @media screen and (max-width: 1920px) {
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 250px;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 150px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  }
+
+
+  @media screen and (max-width: 1920px) {
+    .numbertext {
+    color: #f2f2f2;
+    font-size: 35px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    }
+  }
+
+  @media screen and (max-width: 1920px) {
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: #14DB93;
+      font-size: 20px;
+    }
+  }
+  
+
+
+  @media screen and (max-width: 1536px) {
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 250px;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 50px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  }
+
+
+  @media screen and (max-width: 1536px) {
+    .numbertext {
+    color: #f2f2f2;
+    font-size: 35px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    }
+  }
+
+  @media screen and (max-width: 1536px) {
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: #14DB93;
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1366px) {
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 250px;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 60px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  }
+  
+  @media screen and (max-width: 1366px) {
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 20px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 1366px){
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: #14DB93;
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: #14DB93;
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 414px){
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 100px;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 50px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  }
+
+@media screen and (max-width: 360px) {
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: #14DB93;
+    font-size: 10px;
+  }
+}
+

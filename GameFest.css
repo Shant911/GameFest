@@ -1,0 +1,203 @@
+ 
+ .body-aanmelderpage {
+    font-family: "Pixel Emulator";
+    background: url('img/friends.jpg');
+    background-size: auto;
+   }
+
+
+   .body-eventpage {
+    font-family: "Pixel Emulator";
+    background: url('img/win.jpg');
+    background-size: 2000px 2000px;
+   }
+
+   .celery {
+    color: #14db1c;
+   }
+
+   .celery-eventpage {
+    color: #14DB93;
+    text-align: center;
+    font-size: 210px;
+    position: relative;
+    margin:auto;
+    top: -105px;
+   }
+   h2.celery-eventpage{
+     font-size: 150px;
+     top: 30px;
+   }
+
+   .button-color {
+       background-color: black;
+       border-color: green;  
+   }
+   
+   
+   .ball-position{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 300px;
+   }
+
+   .ball{
+    border-radius: 250px;
+    height: 250px;
+    width: 250px;
+    font-size: 28px;
+    color: green;
+   }
+
+  .ball:hover{
+    color: green;
+    background-color: black;
+    border-color: #14db1c;
+  }
+
+a:hover {
+  color: black;
+  background-color: black;
+}
+
+a:link {
+  color: #14db1c;
+  background-color: black;
+}
+
+a:visited {
+  color: #14db1c;
+  background-color:black;
+}
+
+
+@media screen and (min-width: 1921px) {
+  .body-eventpage {
+    background-size: 3000px auto;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    background-position: top;
+  }
+}
+
+
+@media screen and (min-width: 1921px) {
+  .celery-eventpage, h2.celery-eventpage {
+    font-size: auto;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+    top: auto;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .body-eventpage {
+    background-size: 1920px auto;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 1920px) {
+  .celery-eventpage, h2.celery-eventpage {
+    font-size: 60px;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+    top: 200px;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .body-eventpage {
+    background-size: 1536px 864px;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 1536px) {
+  .celery-eventpage, h2.celery-eventpage {
+    font-size: 60px;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+    top: 30px;
+    right: 0px;
+  }
+}
+
+
+
+@media screen and (max-width: 1366px) {
+  .celery-eventpage, h2.celery-eventpage {
+    font-size: 60px;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+    top: 30px;
+    right: 0px;
+  }
+}
+
+
+@media screen and (max-width: 1366px) {
+  .body-eventpage {
+    background-size: 1366px 768px;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .celery-eventpage, h2.celery-eventpage {
+    font-size: 25px;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+    top: 30px;
+    right: 0px;
+  }
+}
+
+
+@media screen and (max-width: 414px) {
+  .body-eventpage {
+    background-size: 414px 896px;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .body-eventpage {
+    background-size: 360px 640px;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .celery-eventpage, h2.celery-eventpage {
+    font-size: 25px;
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+    top: 20px;
+    right: 0px;
+  }
+}
